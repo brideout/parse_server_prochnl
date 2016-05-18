@@ -5,7 +5,7 @@ var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
-var databaseUri = 'mongodb://heroku_4xdgw3jw:l6g5qikj97i8eor09i3k9qja6v@ds013908.mongolab.com:13908/heroku_4xdgw3jw';
+var databaseUri = 'mongodb://heroku_qh1r0w7w:4mdednr5ib0i9r12gp93mpggd4@ds025892-a0.mlab.com:25892,ds025892-a1.mlab.com:25892/heroku_qh1r0w7w?replicaSet=rs-ds025892';
 
 
 var api = new ParseServer({
