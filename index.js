@@ -5,7 +5,9 @@ var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
-var databaseUri = 'mongodb://heroku_3l5wqcf2:gc44r5bgdudg6i8qurtp7jmft9@ds117919.mlab.com:17919/heroku_3l5wqcf2';
+//var databaseUri = 'mongodb://heroku_3l5wqcf2:gc44r5bgdudg6i8qurtp7jmft9@ds117919.mlab.com:17919/heroku_3l5wqcf2';
+var databaseUri = 'mongodb://transfer:prochnl1@iad2-c11-2.mongo.objectrocket.com:52934,iad2-c11-1.mongo.objectrocket.com:52934,iad2-c11-0.mongo.objectrocket.com:52934/heroku_3l5wqcf2?replicaSet=cb9a184b082641a5a754503261f07b49
+';
 
 
 var api = new ParseServer({
